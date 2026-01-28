@@ -1,0 +1,1262 @@
+{
+  "generated_at": "2026-01-28T17:42:54.046767+00:00",
+  "city": "Madrid",
+  "concerts": [
+    {
+      "artist": "ELADIO CARRIÓN DON KBRN ESPAÑA TOUR",
+      "venue": "Movistar Arena",
+      "date": "28-01-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=eladio-carrion-don-kbrn-espana-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ANDRÉ RIEU Y SU ORQUESTA JOHANN STRAUSS",
+      "venue": "Movistar Arena",
+      "date": "29-01-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=andr-rieu-y-su-orquesta-johann-strauss",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CHICLE INVERFEST 2026",
+      "venue": "Movistar Arena",
+      "date": "29-01-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=chicle-inverfest-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SEN SENRA PO2054AZ: LA ÚLTIMA MISA",
+      "venue": "Movistar Arena",
+      "date": "30-01-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=sen-senra-po2054az-la-ultima-misa",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CARMEN 113 FIN DE GIRA",
+      "venue": "Movistar Arena",
+      "date": "30-01-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=carmen-113-fin-de-gira",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DELAOSSA LA MADRUGÁ TOUR",
+      "venue": "Movistar Arena",
+      "date": "31-01-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=delaossa-la-madrug-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "YAREA GIRA INVOLUNTARIO",
+      "venue": "Movistar Arena",
+      "date": "31-01-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=yarea-gira-involuntario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CUCO RIDIN´ TOUR",
+      "venue": "Movistar Arena",
+      "date": "02-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=cuco-ridin-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DANNY OCEAN BABYLON CLUB TOUR",
+      "venue": "Movistar Arena",
+      "date": "04-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=danny-ocean-babylon-club-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MAGNETO Y JNS",
+      "venue": "Movistar Arena",
+      "date": "04-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=magneto-y-jns",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MATUTE DISCOSTEREO TOUR",
+      "venue": "Movistar Arena",
+      "date": "05-02-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=matute-discostereo-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DANNY OCEAN BABYLON CLUB TOUR",
+      "venue": "Movistar Arena",
+      "date": "05-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=danny-ocean-babylon-club-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MVRK PÓRTATE BIEN TOUR",
+      "venue": "Movistar Arena",
+      "date": "06-02-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=mvrk-p-rtate-bien-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CELTAS CORTOS 40 AÑOS CONTANDO CUENTOS",
+      "venue": "Movistar Arena",
+      "date": "07-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=celtas-cortos-40-anos-contando-cuentos",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DUDI",
+      "venue": "Movistar Arena",
+      "date": "07-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=dudi",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "PUNZADAS SONORAS LA SALA COMEDIA BY DOMINO´S",
+      "venue": "Movistar Arena",
+      "date": "08-02-2026",
+      "time": "12:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=punzadas-sonoras-la-sala-comedia-by-domino-s",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SANTIAGO MOTORIZADO EUROPA 2026 INVERFEST",
+      "venue": "Movistar Arena",
+      "date": "12-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=santiago-motorizado-europa-2026-inverfest",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "PABLO NAVARRO & THE BRASS BAND",
+      "venue": "Movistar Arena",
+      "date": "13-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=pablo-navarro-y-the-brass-band",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "PLEASE U2 50TH ANNIVERSARY TRIBUTE TOUR 1976 2026",
+      "venue": "Movistar Arena",
+      "date": "14-02-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=please-u2-50th-anniversary-tribute-tour-1976-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "NATHY PELUSO MADRID 2026",
+      "venue": "Movistar Arena",
+      "date": "17-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=nathy-peluso-madrid-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "JUSEPH LOS DEL GLAMOÜR TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "19-02-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=juseph-los-del-glamo-r-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LOS REBELDES",
+      "venue": "Movistar Arena",
+      "date": "20-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=los-rebeldes",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "RALPHIE CHOO",
+      "venue": "Movistar Arena",
+      "date": "20-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=ralphie-choo",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AMISTADES PELIGROSAS",
+      "venue": "Movistar Arena",
+      "date": "21-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=amistades-peligrosas",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "WALLS MADRID",
+      "venue": "Movistar Arena",
+      "date": "21-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=walls-madrid",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "JUDELINE BODHIRIA TOUR",
+      "venue": "Movistar Arena",
+      "date": "22-02-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=judeline-bodhiria-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "FERNANDOCOSTA AMOR Y DOLOR 10º ANIVERSARIO",
+      "venue": "Movistar Arena",
+      "date": "27-02-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=fernandocosta-amor-y-dolor-10-aniversario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ENCANTO DEL LOCO TRIBUTO A EL CANTO DEL LOCO",
+      "venue": "Movistar Arena",
+      "date": "27-02-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=encanto-del-loco-tributo-a-el-canto-del-loco",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "FESTIVAL ULTREIA 2026",
+      "venue": "Movistar Arena",
+      "date": "28-02-2026",
+      "time": "19:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=festival-ultreia-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MIKEL IZAL FIN DE GIRA",
+      "venue": "Movistar Arena",
+      "date": "28-02-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=mikel-izal-fin-de-gira",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "JUANES",
+      "venue": "Movistar Arena",
+      "date": "01-03-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=juanes",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LOS CAÑOS 20 AÑOS PENSANDO EN TI",
+      "venue": "Movistar Arena",
+      "date": "04-03-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=los-canos-20-anos-pensando-en-ti",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DEI V UNDERWATER TOUR",
+      "venue": "Movistar Arena",
+      "date": "06-03-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=dei-v-underwater-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "VIVA SUECIA",
+      "venue": "Movistar Arena",
+      "date": "07-03-2026",
+      "time": "20:45",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=viva-suecia",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "TENNESSEE 45 ANIVERSARIO",
+      "venue": "Movistar Arena",
+      "date": "07-03-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=tennessee-45-aniversario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "JORDAN B. PETERSON AN EVENING TO TRANSFORM YOUR LIFE",
+      "venue": "Movistar Arena",
+      "date": "09-03-2026",
+      "time": "19:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=jordan-b-peterson-an-evening-to-transform-your-life",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "JUSTB AQUA HALO EUROPE TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "10-03-2026",
+      "time": "19:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=justb-aqua-halo-europe-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "TASH SULTANA RETURN TO THE ROOTS",
+      "venue": "Movistar Arena",
+      "date": "11-03-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=tash-sultana-return-to-the-roots",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ORSLOK",
+      "venue": "Movistar Arena",
+      "date": "12-03-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=orslok",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "HIJOS DE LA RUINA HIJOS DE LA RUINA TOUR",
+      "venue": "Movistar Arena",
+      "date": "13-03-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=hijos-de-la-ruina-hijos-de-la-ruina-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "FRAN PEREA GIRA EL HOMBRE INVISIBLE",
+      "venue": "Movistar Arena",
+      "date": "13-03-2026",
+      "time": "21:15",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=fran-perea-gira-el-hombre-invisible",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "HIJOS DE LA RUINA HIJOS DE LA RUINA TOUR",
+      "venue": "Movistar Arena",
+      "date": "14-03-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=hijos-de-la-ruina-hijos-de-la-ruina-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "EMBUSTEROS VÉRTIGO TOUR",
+      "venue": "Movistar Arena",
+      "date": "14-03-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=embusteros-vertigo-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SIMÓN GROSSMANN EMPEZAR GANANDO TOUR",
+      "venue": "Movistar Arena",
+      "date": "19-03-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=sim-n-grossmann-empezar-ganando-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CÓMPLICES",
+      "venue": "Movistar Arena",
+      "date": "21-03-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=c-mplices",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "3AM FORAJIDOS TOUR",
+      "venue": "Movistar Arena",
+      "date": "26-03-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=3am-forajidos-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LA NOCHE DE CADENA 100",
+      "venue": "Movistar Arena",
+      "date": "28-03-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=la-noche-de-cadena-100",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "HANS ZIMMER LIVE THE NEXT LEVEL EUROPE TOUR",
+      "venue": "Movistar Arena",
+      "date": "29-03-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=hans-zimmer-live-the-next-level-europe-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ROSALÍA LUX TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "30-03-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=rosalia-lux-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ROSALÍA LUX TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "01-04-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=rosalia-lux-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ROSALÍA LUX TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "03-04-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=rosalia-lux-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ROSALÍA LUX TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "04-04-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=rosalia-lux-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LAURA PAUSINI YO CANTO WORLD TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "06-04-2026",
+      "time": "19:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=laura-pausini-yo-canto-world-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "TAME IMPALA DEADBEAT",
+      "venue": "Movistar Arena",
+      "date": "07-04-2026",
+      "time": "20:15",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=tame-impala-deadbeat",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LOS40 PRIMAVERA POP 2026",
+      "venue": "Movistar Arena",
+      "date": "10-04-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=los40-primavera-pop-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "EZIO OLIVA EN CONCIERTO 2026",
+      "venue": "Movistar Arena",
+      "date": "10-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=ezio-oliva-en-concierto-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "BAD GYAL TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "11-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=bad-gyal-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ISMA ROMERO TIRA Y AFLOJA",
+      "venue": "Movistar Arena",
+      "date": "11-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=isma-romero-tira-y-afloja",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "BAD GYAL TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "12-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=bad-gyal-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LOUIS TOMLINSON HOW DID WE GET HERE? WORLD TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "13-04-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=louis-tomlinson-how-did-we-get-here-world-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "BAD GYAL TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "14-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=bad-gyal-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "TURF EUROPE TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "15-04-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=turf-europe-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "NEYO",
+      "venue": "Movistar Arena",
+      "date": "17-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=neyo",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "FESTIVAL ELECTROLATINO",
+      "venue": "Movistar Arena",
+      "date": "18-04-2026",
+      "time": "19:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=festival-electrolatino",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DARK MOOR 25 ANIVERSARIO",
+      "venue": "Movistar Arena",
+      "date": "18-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=dark-moor-25-aniversario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "NICO MISERIA NO ES A PESAR DE… SINO PRECISAMENTE POR ELLO,",
+      "venue": "Movistar Arena",
+      "date": "23-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=nico-miseria-no-es-a-pesar-de-sino-precisamente-por-ello",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LOS DELINQÜENTES 25 AÑOS DEL SENTIMIENTO GARRAPATERO QUE NOS TRAEN LAS FLORES",
+      "venue": "Movistar Arena",
+      "date": "24-04-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=los-delinq-entes-25-a-os-del-sentimiento-garrapatero-que-nos-traen-las-flores",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "HOFE",
+      "venue": "Movistar Arena",
+      "date": "25-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=hofe",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ETS BIHOTZEN KONKISTA",
+      "venue": "Movistar Arena",
+      "date": "25-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=ets-bihotzen-konkista",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SUBASTAS SUICIDAS LE FRÈRE LA SALA COMEDIA BY DOMINO´S",
+      "venue": "Movistar Arena",
+      "date": "26-04-2026",
+      "time": "13:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=subastas-suicidas-le-frere-la-sala-comedia-by-dominos",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "RÜFÜS DU SOL EUROPE 26",
+      "venue": "Movistar Arena",
+      "date": "26-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=rufus-du-sol-europe-26",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CARDELLINO EUROPE TOUR",
+      "venue": "Movistar Arena",
+      "date": "26-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=cardellino-europe-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MANEL FUENTES & THE SPRING´S TEAM",
+      "venue": "Movistar Arena",
+      "date": "30-04-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=manel-fuentes-y-the-spring-s-team",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "THE MOTANS",
+      "venue": "Movistar Arena",
+      "date": "01-05-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=the-motans",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "EROS RAMAZZOTTI UNA HISTORIA IMPORTANTE WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "04-05-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=eros-ramazzotti-una-historia-importante-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ERIC CLAPTON EUROPEAN TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "07-05-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=eric-clapton-european-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "FITO Y FITIPALDIS AULLIDOS TOUR 25/26",
+      "venue": "Movistar Arena",
+      "date": "08-05-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=fito-y-fitipaldis-aullidos-tour-25-26",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "FITO Y FITIPALDIS AULLIDOS TOUR 25/26",
+      "venue": "Movistar Arena",
+      "date": "09-05-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=fito-y-fitipaldis-aullidos-tour-25-26",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "RAWAYANA ¿DÓNDE ES EL AFTER? WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "15-05-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=rawayana-d-nde-es-el-after-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "PABLO ALBORÁN GLOBAL TOUR KM0",
+      "venue": "Movistar Arena",
+      "date": "21-05-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=pablo-albor-n-global-tour-km0",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "PABLO ALBORÁN GLOBAL TOUR KM0",
+      "venue": "Movistar Arena",
+      "date": "22-05-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=pablo-albor-n-global-tour-km0",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LA OREJA DE VAN GOGH TANTAS COSAS QUE CONTAR TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "28-05-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=la-oreja-de-van-gogh-tantas-cosas-que-contar-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SONIA GÓMEZ",
+      "venue": "Movistar Arena",
+      "date": "28-05-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=sonia-g-mez",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LA OREJA DE VAN GOGH TANTAS COSAS QUE CONTAR TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "29-05-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=la-oreja-de-van-gogh-tantas-cosas-que-contar-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AWARE 2026",
+      "venue": "Movistar Arena",
+      "date": "31-05-2026",
+      "time": "19:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=aware-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LA OREJA DE VAN GOGH TANTAS COSAS QUE CONTAR TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "31-05-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=la-oreja-de-van-gogh-tantas-cosas-que-contar-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ÓSCAR EL RUSO",
+      "venue": "Movistar Arena",
+      "date": "06-06-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=oscar-el-ruso",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "TXETXU ALTUBE PUNTO DE FUGA TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "12-06-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=txetxu-altube-punto-de-fuga-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AGONEY DICOTOMÍA TOUR PARTE II",
+      "venue": "Movistar Arena",
+      "date": "13-06-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=agoney-dicotomia-tour-parte-ii",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LUDOVICO EINAUDI",
+      "venue": "Movistar Arena",
+      "date": "15-06-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=ludovico-einaudi",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CUARTETO DE NOS TOUR PUERTAS EUROPA 2026",
+      "venue": "Movistar Arena",
+      "date": "30-06-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=cuarteto-de-nos-tour-puertas-europa-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "OT 2025 EN CONCIERTO",
+      "venue": "Movistar Arena",
+      "date": "03-07-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=ot-2025-en-concierto",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "KANY GARCÍA",
+      "venue": "Movistar Arena",
+      "date": "05-07-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=kany-garcia",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "GRUPO FRONTERA TRISTE PERO BIEN C*BRON TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "09-07-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=grupo-frontera-triste-pero-bien-c-bron-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CHAYANNE BAILEMOS OTRA VEZ 2026",
+      "venue": "Movistar Arena",
+      "date": "12-07-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=chayanne-bailemos-otra-vez-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LEIVA FIN DE GIRA TOUR GIGANTE",
+      "venue": "Movistar Arena",
+      "date": "08-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=leiva-fin-de-gira-tour-gigante",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LEIVA FIN DE GIRA TOUR GIGANTE",
+      "venue": "Movistar Arena",
+      "date": "09-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=leiva-fin-de-gira-tour-gigante",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AITANA CUARTO AZUL WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "11-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=aitana-cuarto-azul-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AITANA CUARTO AZUL WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "12-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=aitana-cuarto-azul-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AITANA CUARTO AZUL WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "14-09-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=aitana-cuarto-azul-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AITANA CUARTO AZUL WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "15-09-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=aitana-cuarto-azul-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "KAZE",
+      "venue": "Movistar Arena",
+      "date": "18-09-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=kaze",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ANTONIO OROZCO LA GIRA DE TU VIDA",
+      "venue": "Movistar Arena",
+      "date": "19-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=antonio-orozco-la-gira-de-tu-vida",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "IVÁN FERREIRO HOY X AYER",
+      "venue": "Movistar Arena",
+      "date": "20-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=iv-n-ferreiro-hoy-x-ayer",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LA OREJA DE VAN GOGH TANTAS COSAS QUE CONTAR TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "22-09-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=la-oreja-de-van-gogh-tantas-cosas-que-contar-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LA OREJA DE VAN GOGH TANTAS COSAS QUE CONTAR TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "23-09-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=la-oreja-de-van-gogh-tantas-cosas-que-contar-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SODA STEREO ECOS",
+      "venue": "Movistar Arena",
+      "date": "24-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=soda-stereo-ecos",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "JORGE DREXLER GIRA NUEVO DISCO 2026",
+      "venue": "Movistar Arena",
+      "date": "26-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=jorge-drexler-gira-nuevo-disco-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LEIVA FIN DE GIRA TOUR GIGANTE",
+      "venue": "Movistar Arena",
+      "date": "29-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=leiva-fin-de-gira-tour-gigante",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LEIVA FIN DE GIRA TOUR GIGANTE",
+      "venue": "Movistar Arena",
+      "date": "30-09-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=leiva-fin-de-gira-tour-gigante",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "GUITARRICADELAFUENTE SPANISH LEATHER CLOSING CHAPTER",
+      "venue": "Movistar Arena",
+      "date": "02-10-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=guitarricadelafuente-spanish-leather-closing-chapter",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "BIG BIG TRAIN THE WOODCUT & OTHER STORIES TOUR",
+      "venue": "Movistar Arena",
+      "date": "06-10-2026",
+      "time": "19:45",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=big-big-train-the-woodcut-y-other-stories-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DANI FERNÁNDEZ LA INSURRECCIÓN",
+      "venue": "Movistar Arena",
+      "date": "09-10-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=dani-fern-ndez-la-insurrecci-n",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "GALVÁN REAL 10 AÑOS CONTIGO",
+      "venue": "Movistar Arena",
+      "date": "10-10-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=galvan-real-10-anos-contigo",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "GOD SAVE THE QUEEN 2026",
+      "venue": "Movistar Arena",
+      "date": "12-10-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=god-save-the-queen-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DANI FERNÁNDEZ LA INSURRECCIÓN",
+      "venue": "Movistar Arena",
+      "date": "16-10-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=dani-fern-ndez-la-insurrecci-n",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DANI FERNÁNDEZ LA INSURRECCIÓN",
+      "venue": "Movistar Arena",
+      "date": "17-10-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=dani-fern-ndez-la-insurrecci-n",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "TRUENO 2026",
+      "venue": "Movistar Arena",
+      "date": "21-10-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=trueno-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DANI FERNÁNDEZ LA INSURRECCIÓN",
+      "venue": "Movistar Arena",
+      "date": "23-10-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=dani-fern-ndez-la-insurrecci-n",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ZENO & THE STOICS 20 ANIVERSARIO",
+      "venue": "Movistar Arena",
+      "date": "24-10-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=zeno-y-the-stoics-20-aniversario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MORAT YEM WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "27-10-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=morat-yem-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MORAT YEM WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "28-10-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=morat-yem-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MORAT YEM WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "30-10-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=morat-yem-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MORAT YEM WORLD TOUR",
+      "venue": "Movistar Arena",
+      "date": "31-10-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=morat-yem-world-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "PENDRAGON WHISTLE STOP TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "04-11-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=pendragon-whistle-stop-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LEX",
+      "venue": "Movistar Arena",
+      "date": "07-11-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=lex",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AGORAZEIN (AGZ) SIEMPRE",
+      "venue": "Movistar Arena",
+      "date": "15-11-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=agorazein-agz-siempre",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AGORAZEIN (AGZ) SIEMPRE",
+      "venue": "Movistar Arena",
+      "date": "16-11-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=agorazein-agz-siempre",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AGORAZEIN (AGZ) SIEMPRE",
+      "venue": "Movistar Arena",
+      "date": "17-11-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=agorazein-agz-siempre",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AGORAZEIN (AGZ) SIEMPRE",
+      "venue": "Movistar Arena",
+      "date": "18-11-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=agorazein-agz-siempre",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "JP FERNÁNDEZ SOMBRAS Y DESTELLOS TOUR",
+      "venue": "Movistar Arena",
+      "date": "20-11-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=jp-fern-ndez-sombras-y-destellos-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "BELY BASARTE AMOR LETAL TOUR",
+      "venue": "Movistar Arena",
+      "date": "21-11-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=bely-basarte-amor-letal-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LA PLAZUELA LUGAR Nº0 (D.L.Y.) TOUR",
+      "venue": "Movistar Arena",
+      "date": "27-11-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=la-plazuela-lugar-n-0-d-l-y-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "VÍCTOR MANUEL SOLO A SOLAS CONMIGO",
+      "venue": "Movistar Arena",
+      "date": "29-11-2026",
+      "time": "19:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=v-ctor-manuel-solo-a-solas-conmigo",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "75 ANIVERSARIO CAMARÓN",
+      "venue": "Movistar Arena",
+      "date": "01-12-2026",
+      "time": null,
+      "ticket_url": "https://www.movistararena.es/informacion?evento=75-aniversario-camar-n",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "HOMBRES G GIRA 2026 LOS MEJORES AÑOS DE NUESTRA VIDA",
+      "venue": "Movistar Arena",
+      "date": "11-12-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=hombres-g-gira-2026-los-mejores-anos-de-nuestra-vida",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "HOMBRES G GIRA 2026 LOS MEJORES AÑOS DE NUESTRA VIDA",
+      "venue": "Movistar Arena",
+      "date": "12-12-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=hombres-g-gira-2026-los-mejores-anos-de-nuestra-vida",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "JEANETTE GIRA 50 ANIVERSARIO",
+      "venue": "Movistar Arena",
+      "date": "14-12-2026",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=jeanette-gira-50-aniversario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MIGUEL POVEDA COPLAS DEL QUERER GIRA 15 ANIVERSARIO",
+      "venue": "Movistar Arena",
+      "date": "18-12-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=miguel-poveda-coplas-del-querer-gira-15-aniversario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "RAPHAEL RAPHAELISIMO TOUR 2025",
+      "venue": "Movistar Arena",
+      "date": "19-12-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=raphael-raphaelisimo-tour-2025",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MELENDI POP ROCK TOUR",
+      "venue": "Movistar Arena",
+      "date": "22-12-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=melendi-pop-rock-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "MELENDI POP ROCK TOUR",
+      "venue": "Movistar Arena",
+      "date": "23-12-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=melendi-pop-rock-tour",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "TABURETE EL PERRO QUE FUMA TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "26-12-2026",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=taburete-el-perro-que-fuma-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "AMARAL DOLCE VITA TOUR FIN DE GIRA",
+      "venue": "Movistar Arena",
+      "date": "28-12-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=amaral-dolce-vita-tour-fin-de-gira",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "LA OREJA DE VAN GOGH TANTAS COSAS QUE CONTAR TOUR 2026",
+      "venue": "Movistar Arena",
+      "date": "30-12-2026",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=la-oreja-de-van-gogh-tantas-cosas-que-contar-tour-2026",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CAROLINA DURANTE FIN DE LA AVENTURA",
+      "venue": "Movistar Arena",
+      "date": "08-01-2027",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=carolina-durante-fin-de-la-aventura",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "WARCRY XXV ANIVERSARIO",
+      "venue": "Movistar Arena",
+      "date": "09-01-2027",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=warcry-xxv-aniversario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "DUNCAN DHU CONCIERTO FIN DE GIRA INVERFEST 2027",
+      "venue": "Movistar Arena",
+      "date": "16-01-2027",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=duncan-dhu-concierto-fin-de-gira-inverfest-2027",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SIDECARS GIRA PRESENTACIÓN EVEREST",
+      "venue": "Movistar Arena",
+      "date": "29-01-2027",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=sidecars-gira-presentaci-n-everest",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "CARLOS ARES FIN DE GIRA",
+      "venue": "Movistar Arena",
+      "date": "30-01-2027",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=carlos-ares-fin-de-gira",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "OBK VÉRTIGO TOUR 35 ANIVERSARIO",
+      "venue": "Movistar Arena",
+      "date": "18-02-2027",
+      "time": "20:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=obk-vertigo-tour-35-aniversario",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "ALCALÁ NORTE",
+      "venue": "Movistar Arena",
+      "date": "20-02-2027",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=alcal-norte",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SERGIO DALMA TOUR RITORNO A VIA DALMA",
+      "venue": "Movistar Arena",
+      "date": "21-02-2027",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=sergio-dalma-tour-ritorno-a-via-dalma",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SILOÉ",
+      "venue": "Movistar Arena",
+      "date": "12-03-2027",
+      "time": "20:45",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=silo",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "SILOÉ",
+      "venue": "Movistar Arena",
+      "date": "13-03-2027",
+      "time": "20:45",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=silo",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "IL VOLO WORLD TOUR 2026/2027",
+      "venue": "Movistar Arena",
+      "date": "26-10-2027",
+      "time": "20:30",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=il-volo-world-tour-2026-2027",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    },
+    {
+      "artist": "EL KANKA GIRA LA CALMA",
+      "venue": "Movistar Arena",
+      "date": "26-11-2027",
+      "time": "21:00",
+      "ticket_url": "https://www.movistararena.es/informacion?evento=el-kanka-gira-la-calma",
+      "source": "https://www.movistararena.es/calendario?categoria=Conciertos"
+    }
+  ]
+}
