@@ -5,6 +5,8 @@ from datetime import datetime, timezone
 from parsers.lariviera import parse_lariviera
 from parsers.elsol import parse_elsol
 from parsers.movistar_arena import parse_movistar_arena
+from db.database import SessionLocal
+from db.repository import save_concerts
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; IndieConcertScraper/0.1)"
@@ -54,10 +56,17 @@ def main():
         with open(debug_file, "w", encoding="utf-8") as f:
             f.write(html)
 
-        concerts = parser(html, source_url=url)
+        concerts = parser(html, source_url=url, limit=2)
         print(f"   Conciertos parseados: {len(concerts)}")
 
         all_concerts.extend(concerts)
+    
+    db = SessionLocal()
+    try:
+        inserted = save_concerts(db, all_concerts)
+        print(f"Insertados en BD: {inserted}")
+    finally:
+        db.close()
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -66,7 +75,7 @@ def main():
     }
 
     with open("concerts_madrid.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+        json.dump(output, f, ensure_ascii=False, indent=4)
 
     print(f"\nOK: guardado concerts_madrid.json con {len(all_concerts)} conciertos")
 

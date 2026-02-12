@@ -44,11 +44,11 @@ def parse_lariviera(html: str, source_url: str, limit: int | None = None) -> lis
 
         results.append({
             "artist": artist,
-            "venue": venue_name,
-            "date": date,
-            "time": time,                 # puede ser None si no vino bien
+            "venue_name": venue_name,
+            "event_date": date,
+            "event_time": time,                 # puede ser None si no vino bien
             "ticket_url": ticket_url,
-            "source": source_url
+            "source_url": source_url
         })
 
     return results

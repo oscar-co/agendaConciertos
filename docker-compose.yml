@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: concerts-postgres
+    environment:
+      POSTGRES_DB: concerts
+      POSTGRES_USER: concerts_user
+      POSTGRES_PASSWORD: concerts_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - concerts_pgdata:/var/lib/postgresql/data
+
+volumes:
+  concerts_pgdata:

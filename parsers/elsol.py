@@ -52,11 +52,11 @@ def parse_elsol(html: str, source_url: str, default_year: int = 2026, limit: int
 
         results.append({
             "artist": artist,
-            "venue": venue_name,
-            "date": date,
-            "time": time,
+            "venue_name": venue_name,
+            "event_date": date,
+            "event_time": time,
             "ticket_url": ticket_url,
-            "source": source_url
+            "source_url": source_url
         })
 
     return results

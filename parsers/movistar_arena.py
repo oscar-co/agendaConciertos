@@ -40,11 +40,11 @@ def parse_movistar_arena(html: str, source_url: str, limit: int | None = None) -
 
         results.append({
             "artist": artist,
-            "venue": venue_name,
-            "date": date,                 # DD-MM-YYYY
-            "time": time,                 # HH:MM o None
+            "venue_name": venue_name,
+            "event_date": date,                 # DD-MM-YYYY
+            "event_time": time,                 # HH:MM o None
             "ticket_url": ticket_url,
-            "source": source_url
+            "source_url": source_url
         })
 
     return results
