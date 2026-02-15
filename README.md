@@ -151,7 +151,9 @@ Si quieres resetear la base de datos:
 
 docker compose down -v
 docker compose up -d
-python -m db.init_db
+python -m db.scripts.init_db
+o 
+python -m db.scripts.reset_db
 
 📊 Consultar la base de datos manualmente
 

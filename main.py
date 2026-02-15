@@ -11,6 +11,8 @@ from config.http import HEADERS
 from db.database import SessionLocal
 from db.repository import save_concerts
 
+from scraping.runner import run_scraping
+
 
 def to_jsonable(obj):
     if isinstance(obj, dt.time):
@@ -36,31 +38,18 @@ def save_debug_html(debug_dir: Path, filename: str, html: str) -> None:
     (debug_dir / filename).write_text(html, encoding="utf-8")
 
 
-def write_output_json(debug_dir: Path, output: dict) -> None:
+def write_output_json(debug_dir: Path, output: dict) -> Path:
     output_json_path = debug_dir / "concerts_madrid.json"
     with output_json_path.open("w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4, default=to_jsonable)
+    return output_json_path
 
 
 def main():
-    all_concerts: list[dict] = []
+
     debug_dir = ensure_debug_dir()
 
-    for v in VENUES:
-        venue_name = v["venue"]
-        url = v["url"]
-        parser = v["parser"]
-        debug_file = v["debug_html"]
-
-        print(f"\n==> Descargando: {venue_name}")
-        html = fetch(url)
-
-        save_debug_html(debug_dir, debug_file, html)
-
-        concerts = parser(html, source_url=url, limit=3)
-        print(f"   Conciertos parseados: {len(concerts)}")
-
-        all_concerts.extend(concerts)
+    all_concerts = run_scraping(debug_dir, limit=3)
 
     # Guardar en BD
     db = SessionLocal()
@@ -76,9 +65,9 @@ def main():
         "city": "Madrid",
         "concerts": all_concerts,
     }
-    write_output_json(debug_dir, output)
+    output_json_path = write_output_json(debug_dir, output)
 
-    print(f"\nOK: guardado concerts_madrid.json con {len(all_concerts)} conciertos")
+    print(f"\nOK: guardado {output_json_path.name} con {len(all_concerts)} conciertos")
 
 
 if __name__ == "__main__":
