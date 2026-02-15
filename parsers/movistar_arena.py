@@ -1,8 +1,7 @@
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-from utils.dates import parse_date_es_day_month_year
-from utils.time import parse_time_24h_with_h
+from utils.normalize_datetime import normalize_date, normalize_time
 
 def parse_movistar_arena(html: str, source_url: str, limit: int | None = None) -> list[dict]:
     soup = BeautifulSoup(html, "lxml")
@@ -23,12 +22,12 @@ def parse_movistar_arena(html: str, source_url: str, limit: int | None = None) -
         # Fecha (ej: "Miércoles 28 enero 2026")
         date_node = node.select_one("h2.product-title")
         date_raw = date_node.get_text(" ", strip=True) if date_node else None
-        date = parse_date_es_day_month_year(date_raw)
+        date = normalize_date(date_raw)
 
         # Hora (ej: "20:30 H.")
         time_node = node.select_one("li.label-azulclaro")
         time_raw = time_node.get_text(" ", strip=True) if time_node else None
-        time = parse_time_24h_with_h(time_raw)
+        time = normalize_time(time_raw)
 
         # Link comprar (relativo)
         buy_a = node.select_one("a.btn.btn-primary[href]")

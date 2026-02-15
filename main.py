@@ -1,9 +1,11 @@
 import json
 import requests
 from datetime import datetime, timezone
+import datetime as dt
 
-from parsers.lariviera import parse_lariviera
-from parsers.elsol import parse_elsol
+from pathlib import Path
+
+from config import DEBUG_DIR
 from parsers.movistar_arena import parse_movistar_arena
 from db.database import SessionLocal
 from db.repository import save_concerts
@@ -13,28 +15,21 @@ HEADERS = {
 }
 
 VENUES = [
-    # {
-    #     "venue": "Sala La Riviera",
-    #     "url": "https://salariviera.com/conciertossalariviera/",
-    #     "parser": parse_lariviera,
-    #     "debug_html": "response_lariviera.html",
-    # },
-    # {
-    #     "venue": "Sala El Sol",
-    #     "url": "https://salaelsol.com/agenda/",
-    #     "parser": parse_elsol,
-    #     "debug_html": "response_elsol.html",
-    # }
-    # ,
     {
         "venue": "Movistar Arena",
         "url": "https://www.movistararena.es/calendario?categoria=Conciertos",
         "parser": parse_movistar_arena,
         "debug_html": "response_movistar_arena.html",
     }
-
-    
 ]
+
+def to_jsonable(obj):
+    if isinstance(obj, dt.time):
+        return obj.strftime("%H:%M")
+    if isinstance(obj, (dt.date, dt.datetime)):
+        return obj.isoformat()
+    raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")
+
 
 def fetch(url: str) -> str:
     resp = requests.get(url, headers=HEADERS, timeout=20)
@@ -43,6 +38,10 @@ def fetch(url: str) -> str:
 
 def main():
     all_concerts = []
+
+    # Creamos la carpeta de debug si no existe
+    debug_dir = Path(DEBUG_DIR)
+    debug_dir.mkdir(parents=True, exist_ok=True)
 
     for v in VENUES:
         venue_name = v["venue"]
@@ -53,14 +52,16 @@ def main():
         print(f"\n==> Descargando: {venue_name}")
         html = fetch(url)
 
-        with open(debug_file, "w", encoding="utf-8") as f:
+        # Guardar HTML dentro de debug_dir
+        debug_path = debug_dir / debug_file
+        with open(debug_path, "w", encoding="utf-8") as f:
             f.write(html)
 
-        concerts = parser(html, source_url=url, limit=2)
+        concerts = parser(html, source_url=url, limit=3)
         print(f"   Conciertos parseados: {len(concerts)}")
 
         all_concerts.extend(concerts)
-    
+
     db = SessionLocal()
     try:
         inserted = save_concerts(db, all_concerts)
@@ -74,8 +75,9 @@ def main():
         "concerts": all_concerts
     }
 
-    with open("concerts_madrid.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=4)
+    outputConcertListJsonFile = debug_dir /"concerts_madrid.json"
+    with open( outputConcertListJsonFile, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=4, default=to_jsonable)
 
     print(f"\nOK: guardado concerts_madrid.json con {len(all_concerts)} conciertos")
 

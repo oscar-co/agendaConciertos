@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
-from utils.time import parse_time_ampm
-from utils.dates import parse_date_es_full
+from utils.normalize_datetime import normalize_date, normalize_time
 
 
 def parse_lariviera(html: str, source_url: str, limit: int | None = None) -> list[dict]:
@@ -27,12 +26,12 @@ def parse_lariviera(html: str, source_url: str, limit: int | None = None) -> lis
         # Fecha
         date_node = art.select_one("span.decm_date")
         date_raw = date_node.get_text(" ", strip=True) if date_node else None
-        date = parse_date_es_full(date_raw)
+        date = normalize_date(date_raw)
 
         # Hora
         time_node = art.select_one("span.decm_time")
         time_raw = time_node.get_text(" ", strip=True) if time_node else None
-        time = parse_time_ampm(time_raw)
+        time = normalize_time(time_raw)
 
         # Link de compra
         buy_link = art.select_one("a.act-view-more[href]") or art.select_one("a[href]")

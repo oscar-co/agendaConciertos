@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
-from utils.time import parse_time_range_start
-from utils.dates import parse_date_es_day_month
+from utils.normalize_datetime import normalize_date, normalize_time
 
 
 def parse_elsol(html: str, source_url: str, default_year: int = 2026, limit: int | None = None) -> list[dict]:
@@ -35,12 +34,12 @@ def parse_elsol(html: str, source_url: str, default_year: int = 2026, limit: int
             date_p = wrapper.select_one("p.fecha-superior") or wrapper.select_one("p.fecha-superior-publico")
             date_raw = date_p.get_text(" ", strip=True) if date_p else None
 
-        date = parse_date_es_day_month(date_raw, year=default_year)
+        date = normalize_date(date_raw, default_year=default_year)  # <-- aquí
 
         # 3) Hora (rango)
         time_span = node.select_one("span.espacio")
         time_raw = time_span.get_text(" ", strip=True) if time_span else None
-        time = parse_time_range_start(time_raw)
+        time = normalize_time(time_raw)
 
         # 4) Ticket URL (si existe)
         tickets_a = node.select_one('a.Tickets[href]')
