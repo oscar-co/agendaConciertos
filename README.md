@@ -25,10 +25,6 @@ Mac / Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-Windows (PowerShell)
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-
 
 Cuando esté activo verás algo así:
 (.venv) usuario@maquina agendaConcerts %
@@ -71,7 +67,10 @@ Si no existe, se usará debugFiles por defecto.
 
 Con el entorno virtual activo:
 Forma recomendada
-python main.py
+EJECUTAR SCRAPING:  python -m scraping.cli
+
+ARRANCAR API: uvicorn api.main:app --reload
+
 
 
 📁 Qué ocurre al ejecutar

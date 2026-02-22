@@ -49,7 +49,7 @@ def main():
 
     debug_dir = ensure_debug_dir()
 
-    all_concerts = run_scraping(debug_dir, limit=3)
+    all_concerts = run_scraping(debug_dir, limit=15)
 
     # Guardar en BD
     db = SessionLocal()

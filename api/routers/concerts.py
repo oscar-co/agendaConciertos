@@ -7,6 +7,7 @@ from api.deps import get_db
 from db.models import Concert, Venue
 
 router = APIRouter(prefix="/concerts", tags=["concerts"])
+today = dt.date.today()
 
 
 def _apply_filters(stmt, q: str | None, venue_id: int | None, date_from: dt.date | None, date_to: dt.date | None):
@@ -31,12 +32,22 @@ def list_concerts(
     page: int = Query(default=1, ge=1),
     page_size: int = Query(default=25, ge=1, le=100),
 ):
-    base = select(Concert).join(Venue)
+    base = (
+        select(Concert)
+        .join(Venue)
+        .where(Concert.event_date >= today)
+    )
     base = _apply_filters(base, q, venue_id, date_from, date_to)
 
     # Total (para paginación en React)
+    count_base = (
+        select(Concert.id)
+        .join(Venue)
+        .where(Concert.event_date >= today)
+    )
+
     count_stmt = select(func.count()).select_from(
-        _apply_filters(select(Concert.id), q, venue_id, date_from, date_to).subquery()
+        _apply_filters(count_base, q, venue_id, date_from, date_to).subquery()
     )
     total = db.execute(count_stmt).scalar_one()
 
@@ -100,7 +111,7 @@ def upcoming(
     db: Session = Depends(get_db),
     days: int = Query(default=60, ge=1, le=365),
 ):
-    today = dt.date.today()
+    # today = dt.date.today()
     until = today + dt.timedelta(days=days)
 
     stmt = (
