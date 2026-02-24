@@ -1,4 +1,4 @@
-🎵 Madrid Indie Concert Scraper
+## Madrid Indie Concert Scraper
 
 Aplicación en Python que:
 Hace scraping de salas de conciertos de Madrid
@@ -7,12 +7,69 @@ Los guarda en PostgreSQL usando SQLAlchemy ORM
 Genera un JSON con los conciertos encontrados
 Guarda HTML de debug por sala
 
-📦 Requisitos
+# EndPoints
+API Documentation
+
+Swagger UI:
+http://localhost:8000/docs
+
+ReDoc documentation:
+http://localhost:8000/redoc
+
+Raw OpenAPI schema (JSON):
+http://localhost:8000/openapi.json
+
+- Main Endpoint: GET /concerts
+
+Returns a paginated list of concerts with filtering options.
+
+Query Parameters
+Parameter	Type	Default	Description
+upcoming	bool	true	If true, returns concerts from today to today + days.
+days	int	60	Number of days ahead when upcoming=true.
+q	string	–	Search by artist OR venue name (case-insensitive).
+artist_q	string	–	Search by artist name only.
+venue_q	string	–	Search by venue name only.
+venue_id	int	–	Filter by venue ID.
+date_from	date	–	Start date filter (YYYY-MM-DD).
+date_to	date	–	End date filter (YYYY-MM-DD).
+page	int	1	Page number.
+page_size	int	25	Items per page (max 100).
+
+- Examples
+Default (upcoming 60 days)
+GET /concerts
+
+Next 14 days only
+GET /concerts?upcoming=true&days=14
+
+Disable upcoming window
+GET /concerts?upcoming=false
+
+Search by artist or venue
+GET /concerts?q=mayhem
+
+Search only by venue
+GET /concerts?venue_q=wizink
+
+Custom date range
+GET /concerts?upcoming=false&date_from=2025-01-01&date_to=2025-12-31
+
+# Response Structure
+{
+  "items": [...],
+  "page": 1,
+  "page_size": 25,
+  "total": 42
+}
+
+
+- Requisitos
 Python 3.11+ (recomendado)
 Docker + Docker Compose
 pip
 
-🚀 Instalación paso a paso
+# Instalación paso a paso
 - Clonar el proyecto
 git clone https://github.com/oscar-co/agendaConciertos
 cd agendaConcerts
@@ -63,7 +120,7 @@ Esto define dónde se guardan los HTML de debug.
 Si no existe, se usará debugFiles por defecto.
 
 
-▶️ Ejecutar la aplicación
+# !!!!! Ejecutar la aplicación
 
 Con el entorno virtual activo:
 Forma recomendada
@@ -73,7 +130,7 @@ ARRANCAR API: uvicorn api.main:app --reload
 
 
 
-📁 Qué ocurre al ejecutar
+- Qué ocurre al ejecutar
 Descarga la página de cada sala
 Guarda el HTML en la carpeta definida en .env
 Parsea los conciertos
@@ -87,7 +144,8 @@ Salida típica:
 Insertados: 2 | Actualizados(last_seen): 0
 OK: guardado concerts_madrid.json con 2 conciertos
 
-🗂 Estructura del Proyecto
+
+# Estructura del Proyecto
 ├── README.md
 ├── TODO.md
 ├── __pycache__
@@ -176,12 +234,3 @@ SELECT * FROM concerts ORDER BY event_date;
 
 Salir:
 \q
-
-
-🔮 Próximos pasos posibles
-Añadir más salas
-Crear API con FastAPI
-Añadir filtros por fecha
-Generar frontend web
-Añadir índices en PostgreSQL
-Añadir logging estructurado
