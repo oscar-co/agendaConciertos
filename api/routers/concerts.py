@@ -7,6 +7,8 @@ from sqlalchemy.orm import Session
 
 from api.deps import get_db
 from db.models import Concert, Venue
+from api.utils.query import clean_q
+
 
 router = APIRouter(prefix="/concerts", tags=["concerts"])
 
@@ -99,9 +101,9 @@ def list_concerts(
     base = select(Concert).join(Venue)
     base = _apply_filters(
         base,
-        q=q,
-        artist_q=artist_q,
-        venue_q=venue_q,
+        q = clean_q(q),
+        artist_q = clean_q(artist_q),
+        venue_q = clean_q(venue_q),
         venue_id=venue_id,
         date_from=date_from,
         date_to=date_to,
@@ -143,7 +145,6 @@ def get_concert(concert_id: int, db: Session = Depends(get_db)):
     if not c:
         raise HTTPException(status_code=404, detail="Concert not found")
 
-    # aquí podrías decidir si quieres devolver venue también o no.
     return {
         "id": c.id,
         "artist": c.artist,

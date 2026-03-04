@@ -7,6 +7,16 @@ Los guarda en PostgreSQL usando SQLAlchemy ORM
 Genera un JSON con los conciertos encontrados
 Guarda HTML de debug por sala
 
+
+# !!!!! Ejecutar la aplicación
+
+Con el entorno virtual activo:
+Forma recomendada
+EJECUTAR SCRAPING:  python -m scraping.cli
+
+ARRANCAR API: uvicorn api.main:app --reload
+
+
 # EndPoints
 API Documentation
 
@@ -118,15 +128,6 @@ En la raíz del proyecto crea un archivo .env:
 DEBUG_DIR=debugFiles
 Esto define dónde se guardan los HTML de debug.
 Si no existe, se usará debugFiles por defecto.
-
-
-# !!!!! Ejecutar la aplicación
-
-Con el entorno virtual activo:
-Forma recomendada
-EJECUTAR SCRAPING:  python -m scraping.cli
-
-ARRANCAR API: uvicorn api.main:app --reload
 
 
 
