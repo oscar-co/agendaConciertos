@@ -1,0 +1,24 @@
+# .github/workflows/deploy-prod.yml
+name: Deploy AgendaConcerts to VPS
+
+on:
+  push:
+    branches:
+      - PROD
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Configurar clave SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Ejecutar deploy en VPS
+        run: |
+          ssh -o StrictHostKeyChecking=no root@31.97.77.157 "bash /opt/agendaConcerts/deploy-scripts/deploy-backend.sh"
