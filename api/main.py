@@ -3,12 +3,13 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from api.routers.concerts import router as concerts_router
 from api.routers.venues import router as venues_router
+from config.settings import CORS_ORIGINS
 
 app = FastAPI(title="AgendaConcerts API", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
